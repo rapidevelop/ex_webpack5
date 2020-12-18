@@ -1,0 +1,36 @@
+{
+  "name": "ex_webpack5",
+  "version": "0.0.0",
+  "description": "Webpack 5 Video Tutorials Exercise Files",
+  "scripts": {
+    "git:commit": "cz",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rapidevelop/ex_webpack5.git"
+  },
+  "keywords": [],
+  "author": "Iman Vafadarnezhad",
+  "license": "MIT",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/rapidevelop/ex_webpack5/issues"
+  },
+  "homepage": "https://github.com/rapidevelop/ex_webpack5#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "@rapidevelop/prettier-config": "^1.0.1",
+    "commitizen": "^4.2.2",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^7.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "prettier": "^2.2.1"
+  }
+}
