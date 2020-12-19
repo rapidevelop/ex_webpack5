@@ -5,7 +5,8 @@
   "scripts": {
     "git:commit": "cz",
     "build": "./node_modules/.bin/webpack",
-    "build:watch": "./node_modules/.bin/webpack --watch"
+    "build:watch": "./node_modules/.bin/webpack --watch",
+    "serve": "./node_modules/.bin/webpack serve"
   },
   "repository": {
     "type": "git",
@@ -34,7 +35,8 @@
     "eslint-plugin-import": "^2.22.1",
     "prettier": "^2.2.1",
     "webpack": "^5.11.0",
-    "webpack-cli": "^4.2.0"
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
     "jquery": "^3.5.1"
