@@ -8,6 +8,7 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
+  devtool: 'eval',
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
     port: 3000,
